@@ -13,6 +13,7 @@ ${IVALID_PASSWORD}           abc1233333
 
 *** Test Cases ***
 User Should Be Able To Login With Valid Credential
+    [Tags]       TC-001    mobile    app
     Verify Home Screen Appears
     Click Sign In Button On Home Screen
     Input Username    username=${VALID_USERNAME}
